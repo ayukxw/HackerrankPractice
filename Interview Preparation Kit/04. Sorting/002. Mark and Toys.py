@@ -5,6 +5,7 @@
 n, k = map(int, input().split())
 prices = sorted(list(map(int, input().split())))
 
+prices.sort()
 count = 0
 total_sum = 0
 for i in prices:
